@@ -94,7 +94,8 @@ body {font-family: "Lato", sans-serif;}
 }
 
 .headerlogoexhibitorsimg {
-  width: 200px; 
+  max-width: 200px; 
+  max-height: 70px;
   margin-right: 26px; 
   margin-top: 6px;
 }
@@ -289,7 +290,7 @@ body {font-family: "Lato", sans-serif;}
 }
 
 .locationcontactdetailsvg {
-  margin-top: 14px;
+  margin-top: 7px;
 }
 
 .locationcontactdetaillinkp {
