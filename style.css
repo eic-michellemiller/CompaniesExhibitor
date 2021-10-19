@@ -43,12 +43,16 @@ body {
   font-size: 17px;
 }
 
-.tab button:hover {
-  background-color: #f1f1f1;
+.tabexhibitors button:hover {
+  background-color: #f5faff;
 }
 
-.tab button.active {
-  background-color: #f2f2f2;
+.tabexhibitors button:active {
+  background-color: #ffffff;
+}
+
+.tabexhibitors button:visited {
+  background-color: #ffffff;
 }
 
 #defaultOpen {
@@ -122,7 +126,7 @@ body {
 .headerexhibitorsfirstp {
   font-size: 15px;
   line-height: 0px;
-  margin: 10px 0px;
+  margin: 10px 0px; /* the site's code need a 7px margin */
 }
 
 .headerexhibitorsdivicon {
@@ -137,6 +141,21 @@ body {
   vertical-align: top;
   margin: 2px 0px 0px;
   font-size: 14px;
+  color: #526c83;
+}
+
+.headerviewfulllink {
+  text-decoration: none;
+  color: #526c83;
+  margin: 2px 0px 0px;
+  font-size: 14px;
+}
+
+.headerviewfulllink:hover {
+  opacity: 0.7;
+}
+
+.headerviewfulllink:visited {
   color: #526c83;
 }
 
@@ -265,7 +284,7 @@ body {
 .sitecontactdetaillinkp {
   display: inline-block;
   vertical-align: top;
-  margin-top: 9px;
+  margin-top: 13px;
   margin-left: 8px;
   margin-bottom: 0px;
   color: #526c83;
